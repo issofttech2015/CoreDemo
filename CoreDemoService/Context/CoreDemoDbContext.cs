@@ -8,7 +8,7 @@ namespace CoreDemoService.Context
 {
     public class CoreDemoDbContext : DbContext
     {
-        public CoreDemoDbContext() { }
+        //public CoreDemoDbContext() { }
         public CoreDemoDbContext(DbContextOptions<CoreDemoDbContext> options) : base(options)
         {
         }
